@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/danecreekphotography/WinNodeJsBase#readme",
   "dependencies": {
-    "eslint": "^6.8.0",
     "gulp": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-typescript": "^6.0.0-alpha.1",
+    "tslint": "^5.20.1",
     "typescript": "^3.7.4"
   }
 }
