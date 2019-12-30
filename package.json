@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/danecreekphotography/WinNodeJsBase/issues"
   },
-  "homepage": "https://github.com/danecreekphotography/WinNodeJsBase#readme"
+  "homepage": "https://github.com/danecreekphotography/WinNodeJsBase#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "typescript": "^3.7.4"
+  }
 }
