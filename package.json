@@ -1,0 +1,19 @@
+{
+  "name": "winnodejsbase",
+  "version": "1.0.0",
+  "description": "Base nodejs project for Windows with Typescript, VS Code debugging, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danecreekphotography/WinNodeJsBase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danecreekphotography/WinNodeJsBase/issues"
+  },
+  "homepage": "https://github.com/danecreekphotography/WinNodeJsBase#readme"
+}
