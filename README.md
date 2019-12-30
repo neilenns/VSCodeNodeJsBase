@@ -5,3 +5,5 @@ Included packages:
 
 * TypeScript
 * ESLint
+* gulp
+* gulp-typescript
