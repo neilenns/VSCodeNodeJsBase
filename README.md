@@ -7,3 +7,4 @@ Included packages:
 * ESLint
 * gulp
 * gulp-typescript
+* gulp-sourcemaps
