@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/danecreekphotography/WinNodeJsBase#readme",
   "dependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^13.1.2",
+    "commander": "^4.0.1",
     "gulp": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-typescript": "^6.0.0-alpha.1",
