@@ -1,4 +1,5 @@
 const commander = require("commander");
+const chalk = require("chalk");
 
 function SetupCommandLineOptions() {
   // For information on how to configure command line arguments see
@@ -7,7 +8,7 @@ function SetupCommandLineOptions() {
 }
 
 function hello(compiler: string) {
-  console.log(`Hello from ${compiler}`);
+  console.log(`Hello from ${chalk.blue(compiler)}`);
 }
 
 SetupCommandLineOptions();
