@@ -9,6 +9,7 @@ Included packages:
 - gulp
 - gulp-typescript
 - gulp-sourcemaps
+- chalk for command line formatting (https://www.npmjs.com/package/chalk)
 
 Included typings:
 
