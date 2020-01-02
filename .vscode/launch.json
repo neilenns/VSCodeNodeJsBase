@@ -7,6 +7,10 @@
     {
       "type": "node",
       "request": "launch",
+      "preLaunchTask": {
+        "task": "default",
+        "type": "gulp"
+      },
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\dist\\main.js",
