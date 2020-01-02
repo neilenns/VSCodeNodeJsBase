@@ -4,7 +4,8 @@ var sourcemaps = require("gulp-sourcemaps");
 
 var typeScriptOptions = {
   noImplicitAny: true,
-  target: "es5"
+  target: "es5",
+  esModuleInterop: true
 };
 
 var sourcemapsOptions = {

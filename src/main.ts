@@ -1,5 +1,5 @@
-const commander = require("commander");
-const chalk = require("chalk");
+import commander from "commander";
+import chalk from "chalk";
 
 function SetupCommandLineOptions() {
   // For information on how to configure command line arguments see
