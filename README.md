@@ -9,7 +9,9 @@ Included packages:
 - gulp
 - gulp-typescript
 - gulp-sourcemaps
-- chalk for command line formatting (https://www.npmjs.com/package/chalk)
+- chalk for output formatting (https://www.npmjs.com/package/chalk)
+- commander for command line parsing (https://www.npmjs.com/package/commander)
+- glob for file name globbing (https://www.npmjs.com/package/glob)
 
 Included typings:
 
