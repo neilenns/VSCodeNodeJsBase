@@ -1,5 +1,6 @@
 import commander from "commander";
 import chalk from "chalk";
+import moment from "moment";
 
 function SetupCommandLineOptions() {
   // For information on how to configure command line arguments see
@@ -9,6 +10,11 @@ function SetupCommandLineOptions() {
 
 function hello(compiler: string) {
   console.log(`Hello from ${chalk.blue(compiler)}`);
+  console.log(
+    moment()
+      .startOf("day")
+      .fromNow()
+  );
 }
 
 SetupCommandLineOptions();
