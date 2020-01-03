@@ -6,6 +6,7 @@ function SetupCommandLineOptions() {
   // For information on how to configure command line arguments see
   // https://www.npmjs.com/package/commander
   commander.option("-d, --debug", "output debugging information");
+  commander.parse(process.argv);
 }
 
 function hello(compiler: string) {
@@ -17,7 +18,9 @@ function hello(compiler: string) {
   );
 }
 
-SetupCommandLineOptions();
-commander.parse(process.argv);
+function main() {
+  SetupCommandLineOptions();
+  hello("TypeScript");
+}
 
-hello("TypeScript");
+main();
