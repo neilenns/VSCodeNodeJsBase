@@ -1,8 +1,8 @@
 {
-  "name": "winnodejsbase",
+  "name": "csvtomariojson",
   "version": "1.0.0",
-  "description": "Base nodejs project for Windows with Typescript, VS Code debugging, etc.",
-  "main": "index.js",
+  "description": "Converts a CSV file to Mario's JSON job file format",
+  "main": "main.js",
   "scripts": {
     "build": "gulp"
   },
@@ -18,13 +18,16 @@
   "homepage": "https://github.com/danecreekphotography/WinNodeJsBase#readme",
   "dependencies": {
     "@types/commander": "^2.12.2",
+    "@types/lodash": "^4.14.149",
     "@types/node": "^13.1.2",
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
+    "csv-parser": "^2.3.2",
     "glob": "^7.1.6",
     "gulp": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-typescript": "^6.0.0-alpha.1",
+    "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "tslint": "^5.20.1",
     "typescript": "^3.7.4"
