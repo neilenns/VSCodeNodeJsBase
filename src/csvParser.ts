@@ -1,6 +1,6 @@
+import chalk from "chalk";
 import csv from "csv-parser";
 import fs from "fs";
-import chalk from "chalk";
 import _ from "lodash";
 
 type CsvDataCallback = (chunk: any) => void;
@@ -8,7 +8,7 @@ type CsvDataCallback = (chunk: any) => void;
 const requiredHeaders = ["PartnerAssetId", "Uri"];
 
 function validateHeaders(headers: string[]) {
-  let missingHeaders = _.difference(requiredHeaders, headers);
+  const missingHeaders = _.difference(requiredHeaders, headers);
 
   if (missingHeaders.length > 0) {
     throw new Error(`Missing required headers: ${missingHeaders}`);
