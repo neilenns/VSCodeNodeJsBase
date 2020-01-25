@@ -1,8 +1,8 @@
 {
-  "name": "winnodejsbase",
+  "name": "csvtomariojson",
   "version": "1.0.0",
-  "description": "Base nodejs project for Windows with Typescript, VS Code debugging, etc.",
-  "main": "index.js",
+  "description": "Converts a CSV file to Mario's JSON job file format",
+  "main": "main.js",
   "scripts": {
     "build": "tsc"
   },
@@ -19,6 +19,7 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
+    "csv-parser": "^2.3.2",
     "glob": "^7.1.6",
     "moment": "^2.24.0"
   },

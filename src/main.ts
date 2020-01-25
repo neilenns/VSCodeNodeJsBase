@@ -11,18 +11,12 @@ function SetupCommandLineOptions() {
   commander.parse(process.argv);
 }
 
-function hello(compiler: string) {
-  console.log(`Hello from ${chalk.blue(compiler)}`);
-  console.log(
-    moment()
-      .startOf("day")
-      .fromNow()
-  );
+function ProcessRow(data: any) {
 }
 
 function main() {
   SetupCommandLineOptions();
-  hello("TypeScript");
+  processCsv("dist/test.csv", ProcessRow);
 }
 
 main();
