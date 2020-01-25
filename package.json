@@ -1,7 +1,7 @@
 {
-  "name": "csvtomariojson",
+  "name": "vscodenodejsbase",
   "version": "1.1.0",
-  "description": "Converts a CSV file to Mario's JSON job file format",
+  "description": "Base NPM project for VS Code with Typescript",
   "main": "dist/src/main.js",
   "files": [
     "dist/**/*"
