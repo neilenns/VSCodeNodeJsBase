@@ -7,25 +7,27 @@
     "dist/**/*"
   ],
   "scripts": {
+    "build": "tsc",
+    "lint": "npm run tslint && npm run markdownlint",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "markdownlint": "node ./node_modules/markdownlint-cli/markdownlint.js **/*.md --ignore node_modules",
     "prepare": "npm run build",
     "prepublishOnly": "npm run lint",
     "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags",
-    "build": "tsc",
-    "lint": "tslint -p tsconfig.json",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\""
+    "tslint": "tslint -p tsconfig.json",
+    "version": "npm run format && git add -A src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danecreekphotography/WinNodeJsBase.git"
+    "url": "git+https://github.com/danecreekphotography/VSCodeNodeJsBase.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danecreekphotography/WinNodeJsBase/issues"
+    "url": "https://github.com/danecreekphotography/VSCodeNodeJsBase/Issues"
   },
-  "homepage": "https://github.com/danecreekphotography/WinNodeJsBase#readme",
+  "homepage": "https://github.com/danecreekphotography/VSCodeNodeJsBase#readme",
   "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
@@ -38,6 +40,7 @@
     "@types/commander": "^2.12.2",
     "@types/lodash": "^4.14.149",
     "@types/node": "^13.1.2",
+    "markdownlint-cli": "^0.21.0",
     "prettier": "^1.19.1",
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
