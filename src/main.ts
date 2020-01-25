@@ -2,6 +2,7 @@ import commander from "commander";
 import chalk from "chalk";
 import moment from "moment";
 import npmPackageInfo from "../package.json";
+import processCsv from "./csvParser";
 
 function SetupCommandLineOptions() {
   // For information on how to configure command line arguments see
@@ -11,8 +12,7 @@ function SetupCommandLineOptions() {
   commander.parse(process.argv);
 }
 
-function ProcessRow(data: any) {
-}
+function ProcessRow(data: any) {}
 
 function main() {
   SetupCommandLineOptions();
