@@ -4,7 +4,7 @@
   "description": "Base nodejs project for Windows with Typescript, VS Code debugging, etc.",
   "main": "index.js",
   "scripts": {
-    "build": "gulp"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -17,15 +17,14 @@
   },
   "homepage": "https://github.com/danecreekphotography/WinNodeJsBase#readme",
   "dependencies": {
-    "@types/commander": "^2.12.2",
-    "@types/node": "^13.1.2",
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
     "glob": "^7.1.6",
-    "gulp": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-typescript": "^6.0.0-alpha.1",
-    "moment": "^2.24.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^13.1.2",
     "tslint": "^5.20.1",
     "typescript": "^3.7.4"
   }
